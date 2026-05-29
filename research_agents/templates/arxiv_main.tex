@@ -1,0 +1,71 @@
+% arXiv submission skeleton — writer agent fills \title, \author, body, bib
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{microtype}
+
+% Uncomment for arXiv PDF output with clickable arXiv id (after you have one):
+% \usepackage{arxiv}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{assumption}{Assumption}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+\title{%%TITLE%%}
+\author{%%AUTHORS%% \\ %%AFFILIATIONS%%}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+%%ABSTRACT%%
+\end{abstract}
+
+%% Uncomment after posting: \arxiv{YYMM.NNNNN}
+%% \keywords{%%KEYWORDS%%}
+
+\section{Introduction}
+%%INTRO%%
+
+\section{Related Work}
+%%RELATED%%
+
+\section{Preliminaries}
+%%PRELIM%%
+
+\section{Method}
+%%METHOD%%
+
+\section{Results}
+%%RESULTS%%
+
+\section{Discussion}
+%%DISCUSSION%%
+
+\section{Conclusion}
+%%CONCLUSION%%
+
+\section*{Acknowledgments}
+%%ACK%%
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\appendix
+\section{Proofs and Derivations}
+%%APPENDIX_PROOFS%%
+\input{appendix_math}
+
+\end{document}
